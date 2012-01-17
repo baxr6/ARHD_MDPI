@@ -4,7 +4,7 @@ ui_print("Mounting System...");
 	run_program("/sbin/mount", "/system");
 ui_print("Mounting Data...");
 	run_program("/sbin/mount", "/data");
-ui_print("Ininstalling Old Theme...");
+ui_print("Uninstalling Old Theme...");
 	delete_recursive("/system/4ext");
 	delete_recursive("/data/4ext");
 
