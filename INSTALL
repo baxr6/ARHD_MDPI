@@ -1,0 +1,12 @@
+4EXT NG Theme Installation
+
+Copy zip file to SD Card
+
+If you use adb you can then type:
+
+adb reboot recovery
+
+Once in recovery choose from the menu:
+Install from SD Card > Choose zip from SD Card
+and select the file you copied to the SD Card.
+Once finished you will be given the option to reboot recovery.The theme will not display correctly untill you do this.
